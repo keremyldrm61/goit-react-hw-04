@@ -1,0 +1,76 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    position: relative;
+    outline: none;
+}
+
+.closeButton {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.content {
+    padding: 26px;
+}
+
+.image {
+    width: 850px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.author,
+.likes {
+    font-size: 14px;
+    color: #555;
+}
+
+.author strong,
+.likes strong {
+    color: #333;
+    display: block;
+    margin-bottom: 6px;
+}

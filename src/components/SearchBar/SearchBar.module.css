@@ -1,0 +1,64 @@
+.header {
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: #2a6496;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.searchButton {
+    position: absolute;
+    border: none;
+    top: 12px;
+    left: 30px;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.input {
+    flex: 1;
+    padding: 12px 36px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #4a90d9;
+}
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4a90d9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #357abd;
+}
+
+.button:active {
+    background-color: #2a6496;
+}
