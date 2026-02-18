@@ -1,16 +1,94 @@
-# React + Vite
+# 🔍 Visual Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive image search application built with React ⚛️ and Vite ⚡,
+allowing users to search and explore high-quality photos through an
+external API.\
+This project focuses on modern React practices, clean component
+architecture, and seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🔎 Real-time image search via external API
+- 🖼️ Dynamic image gallery rendering
+- 🔍 Clickable image cards with modal preview
+- ⏳ Loading indicators during API requests
+- ❌ Error handling and user-friendly notifications
+- 🔔 Toast validation for empty search submissions
+- 📱 Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- 🟨 JavaScript (ES6+)
+- 🎨 CSS Modules
+- 🌐 Axios (API Requests)
+- 🔔 React Hot Toast
+
+---
+
+## 📁 Project Structure
+
+    src/
+     ├── components/
+     │    ├── SearchBar
+     │    ├── ImageGallery
+     │    ├── ImageCard
+     │    ├── Loader
+     │    ├── ErrorMessage
+     │    └── ImageModal
+     ├── services/
+     │    └── api.js
+     ├── App.jsx
+     └── main.jsx
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/goit-react-hw-04.git
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run development server
+
+```bash
+npm run dev
+```
+
+### 4️⃣ Open in browser
+
+    http://localhost:5173
+
+---
+
+## 🌍 Live Demo
+
+👉 Add your deployed project link here (Vercel)
+
+---
+
+## 📌 Project Purpose
+
+This project was developed as part of the GoIT React Homework #4
+assignment.\
+The main goal was to practice:
+
+- Component-based architecture
+- API integration
+- State management
+- Conditional rendering
+- Error and loading handling
+- Clean and maintainable code structure
