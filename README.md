@@ -92,3 +92,12 @@ The main goal was to practice:
 - Conditional rendering
 - Error and loading handling
 - Clean and maintainable code structure
+
+---
+
+## Author
+
+**Kerem Yıldırım**  
+🚀 React Development Project - API Integration, Async Logic & Modals 🚀
+
+---
