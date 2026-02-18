@@ -21,6 +21,18 @@
     outline: none;
 }
 
+@media screen and (max-width: 768px) {
+    .image {
+        max-width: 715px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .image {
+        max-width: 368px;
+    }
+}
+
 .closeButton {
     position: absolute;
     top: 6px;

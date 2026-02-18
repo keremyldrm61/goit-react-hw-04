@@ -2,6 +2,7 @@
     overflow: hidden;
     cursor: pointer;
     border-radius: 8px;
+    aspect-ratio: 1.6;
 }
 
 .image {

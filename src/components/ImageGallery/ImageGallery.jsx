@@ -1,3 +1,4 @@
+import ImageCard from '../ImageCard/ImageCard.jsx';
 import styles from './ImageGallery.module.css';
 
 const ImageGallery = ({ images, onImageClick }) => {
@@ -9,14 +10,7 @@ const ImageGallery = ({ images, onImageClick }) => {
     <ul className={styles.gallery}>
       {images.map((image) => (
         <li key={image.id} className={styles.item}>
-          <div className={styles.card}>
-            <img
-              className={styles.image}
-              src={image.urls.small}
-              alt={image.alt_description || 'Image'}
-              onClick={() => onImageClick(image)}
-            />
-          </div>
+          <ImageCard image={image} onClick={() => onImageClick(image)} />
         </li>
       ))}
     </ul>
