@@ -35,14 +35,15 @@ architecture, and seamless user experience.
 
     src/
      ├── components/
-     │    ├── SearchBar
-     │    ├── ImageGallery
-     │    ├── ImageCard
-     │    ├── Loader
      │    ├── ErrorMessage
-     │    └── ImageModal
+     │    ├── ImageCard
+     │    ├── ImageGallery
+     │    ├── ImageModal
+     │    ├── Loader
+     │    ├── LoadMoreBtn
+     │    └── SearchBar
      ├── services/
-     │    └── api.js
+     │    └── unsplash-api.js
      ├── App.jsx
      └── main.jsx
 
