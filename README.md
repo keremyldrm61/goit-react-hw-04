@@ -76,7 +76,7 @@ npm run dev
 
 ## 🌍 Live Demo
 
-👉 Add your deployed project link here (Vercel)
+👉 https://goit-react-hw-04-weld-gamma-73.vercel.app/
 
 ---
 
